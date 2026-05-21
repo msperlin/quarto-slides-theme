@@ -1,0 +1,11 @@
+title: Custom format for slides (msperlin)
+author: msperlin
+version: 1.0.0
+quarto-required: ">=1.9.0"
+contributes:
+  formats:
+    revealjs:
+      theme: [theme-msperlin.scss]
+      logo: logo.svg
+      include-after-body: partials/after-body.html
+

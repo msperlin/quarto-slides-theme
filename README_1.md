@@ -1,23 +1,23 @@
-# Mmm Extension For Quarto
-
-_TODO_: Add a short description of your extension.
+# <%= title %> Format
 
 ## Installing
 
-_TODO_: Replace the `<github-organization>` with your GitHub organization.
+*TODO*: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
-quarto add <github-organization>/mmm
+quarto use template <github-organization>/<%= filesafename %>
 ```
 
-This will install the extension under the `_extensions` subdirectory.
-If you're using version control, you will want to check in this directory.
+This will install the extension and create an example qmd file that you can use as a starting place for your article.
 
 ## Using
 
-_TODO_: Describe how to use your extension.
+*TODO*: Describe how to use your format.
+
+## Format Options
+
+*TODO*: If your format has options that can be set via document metadata, describe them.
 
 ## Example
 
-Here is the source code for a minimal example: [example.qmd](example.qmd).
-
+Here is the source code for a minimal sample document: [example.qmd](example.qmd).
